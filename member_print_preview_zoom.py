@@ -860,8 +860,8 @@ gender_frame = tk.Frame(frame)
 gender_frame.grid(row=6,column=1,sticky="w")
 
 combo_gender = ttk.Combobox(gender_frame, width=3, justify="right",
-                            style="WideGender.TCombobox",            # 性別のドロップダウンリストの表示幅自動調整
-                            postcommand=adjust_gender_dropdown_width) # 同上
+                            style="WideGender.TCombobox",            # この行と下の行で性別のドロップダウンリストの表示幅自動調整
+                            postcommand=adjust_gender_dropdown_width)
 
 combo_gender.pack(side="left")
 combo_gender["values"] = gender_display
