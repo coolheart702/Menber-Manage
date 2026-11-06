@@ -822,8 +822,8 @@ combo_id = ttk.Combobox(
     width=15,       # comboboxのサイズ(15桁)
     font=mono_font,
     justify="right", # 右寄せの指定
-    style="WideList.TCombobox",            # 2026-11-04 IDの既存レコード表示幅を調整のため、追加
-    postcommand=adjust_id_dropdown_width   # 同上
+    style="WideList.TCombobox",            # 2026-11-04 この行と次の行でIDの既存レコード表示幅を調整のため、追加
+    postcommand=adjust_id_dropdown_width 
 )
 combo_id.grid(row=0,column=1,sticky="w")
 combo_id["values"] = existing_ids
