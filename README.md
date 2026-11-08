@@ -79,6 +79,10 @@ python -m pip install reportlab pymupdf pillow
 最後に `Successfully installed ...` と表示されれば完了です。
 この作業は **最初の 1 回だけ** で大丈夫です。
 
+> pythonを既にインストール済でライブラリがインストールされているか不明なときは、以下のコマンドで確認できます。
+> '''
+> py -m pip show reportlab PyMuPDF Pillow
+> '''
 ---
 
 ## 3. このプログラムをダウンロードする
