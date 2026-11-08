@@ -28,7 +28,6 @@ from reportlab.pdfbase import pdfmetrics
 #-------------------------------------------------------------------
 # 広域変数の設定
 #-------------------------------------------------------------------
-#db_path = "C:/Users/hisashi/Documents/未来クライム/2026_Advanceコース/2026-09-02_No6/2026-09-02/member.db"
 db_path = "./member.db"
 DB_NAME = db_path
 
