@@ -80,8 +80,9 @@ python -m pip install reportlab pymupdf pillow
 この作業は **最初の 1 回だけ** で大丈夫です。
 
 > pythonを既にインストール済でライブラリがインストールされているか不明なときは、以下のコマンドで確認できます。
+> (コマンド名は必ず python を使って下さい。省略した py を使うと正しく表示されません。)
 > '''
-> py -m pip show reportlab PyMuPDF Pillow
+> python -m pip show reportlab pymupdf pillow
 > '''
 ---
 
